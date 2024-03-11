@@ -34,51 +34,44 @@ public class Game {
                 selLoc = scan.nextInt();
             }
 
-            switch (selLoc) {
-                case 1:
-                    location = new SafeHouse(player);
-                    break;
-                case 2:
-                    if(player.getInv().isFood()) {
-                        System.out.println("Bu bölgeyi zaten temizlediniz. Tekrar giremezsiniz!");
-                        continue;
-                    }
-                    location = new Cave(player);
-                    break;
-                case 3:
-                    if(player.getInv().isFirewood()) {
-                        System.out.println("Bu bölgeyi zaten temizlediniz. Tekrar giremezsiniz!");
-                        continue;
-                    }
-                    location = new Forest(player);
-                    break;
-                case 4:
-                    if(player.getInv().isWater()) {
-                        System.out.println("Bu bölgeyi zaten temizlediniz. Tekrar giremezsiniz!");
-                        continue;
-                    }
-                    location = new River(player);
-                    break;
-                case 5:
-                    location = new Mine(player);
-                    break;
-                case 6:
-                    location = new ToolStore(player);
-                    break;
-                default:
-                    location = new SafeHouse(player);
+            if (selLoc == 1) {
+                location = new SafeHouse(player);
+            } else if (selLoc == 2) {
+                if (player.getInv().isFood()) {
+                    System.out.println("Bu bölgeyi zaten temizlediniz. Tekrar giremezsiniz!");
+                    continue;
+                }
+                location = new Cave(player);
+            } else if (selLoc == 3) {
+                if (player.getInv().isFirewood()) {
+                    System.out.println("Bu bölgeyi zaten temizlediniz. Tekrar giremezsiniz!");
+                    continue;
+                }
+                location = new Forest(player);
+            } else if (selLoc == 4) {
+                if (player.getInv().isWater()) {
+                    System.out.println("Bu bölgeyi zaten temizlediniz. Tekrar giremezsiniz!");
+                    continue;
+                }
+                location = new River(player);
+            } else if (selLoc == 5) {
+                location = new Mine(player);
+            } else if (selLoc == 6) {
+                location = new ToolStore(player);
+            } else {
+                location = new SafeHouse(player);
             }
 
             if (location.getClass().getName().equals("SafeHouse")) {
                 if (player.getInv().isFirewood() && player.getInv().isFood() && player.getInv().isWater()) {
                     System.out.println("Tebrikler Oyunu Kazandınız !");
-                    if(scan != null) scan.close();
+                    if (scan != null) scan.close();
                     break;
                 }
             }
             if (!location.getLocation()) {
                 System.out.println("Oyun Bitti !");
-                if(scan != null) scan.close();
+                if (scan != null) scan.close();
                 break;
             }
 
