@@ -68,18 +68,7 @@ public class MyList <T> {
         return set;
 
     }
-    @Override
-    public String toString(){
-        String str="";
-        for (int i = 0; i <this.array.length ; i++) {
-            if(array[i]!=null){
 
-                str=str+this.array[i]+",";
-            }
-
-        }
-        return str;
-    }
     public int indexOf(T data){
         for (int i = 0; i <this.array.length ; i++) {
             if(array[i]==data){
