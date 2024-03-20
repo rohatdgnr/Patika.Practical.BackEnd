@@ -4,11 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e9fd52b6-ae47-4f0d-a9ed-7735b842f221" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../Week6/SQL1/SQL1/src/sql1/sql1.1.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Week6/SQL1/SQL1/src/sql1/sql1.2.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Week6/SQL1/SQL1/src/sql1/sql1.4.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="92b5d4c5-27bf-4290-b966-e4773f1c01af" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../SQL1/src/sql1/sql1.1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SQL1/src/sql1/sql1.2.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SQL1/src/sql1/sql1.4.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SQL/sql3.1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SQL/sql3.2.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SQL/sql3.3.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SQL/sql3.4.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week5/SQL/SQL4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Week5/SQL/SQL4/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,10 +22,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 0
-}</component>
-  <component name="ProjectId" id="2dv5by8Yp0YOn5xq2njPtMz1PHk" />
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 4
+}]]></component>
+  <component name="ProjectId" id="2dxSAyZkLxy1ppXwM8Cy3pqKYCK" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -32,7 +36,6 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/rohat/OneDrive/Masaüstü/Patika.Pratik/Week6/SQL1/SQL2",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -42,19 +45,18 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\rohat\OneDrive\Masaüstü\Patika.Pratik\Week5\SQL\SQL4\src\sql4" />
+      <recent name="C:\Users\rohat\OneDrive\Masaüstü\Patika.Pratik\Week6\SQL1\SQL3\src\SQL" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="e9fd52b6-ae47-4f0d-a9ed-7735b842f221" name="Changes" comment="" />
-      <created>1710875790660</created>
+      <changelist id="92b5d4c5-27bf-4290-b966-e4773f1c01af" name="Changes" comment="" />
+      <created>1710948100061</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1710875790660</updated>
-      <workItem from="1710875793023" duration="689000" />
-      <workItem from="1710946394025" duration="909000" />
+      <updated>1710948100061</updated>
+      <workItem from="1710948101223" duration="672000" />
     </task>
     <servers />
   </component>
