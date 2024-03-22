@@ -20,6 +20,7 @@ public class Product {
     private String urunAdi;
 
     public void setUrunAdi(String urunAdi) {
+
         this.urunAdi = urunAdi;
     }
 
