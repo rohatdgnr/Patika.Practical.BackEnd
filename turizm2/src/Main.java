@@ -7,6 +7,7 @@ public class Main {
     public static void main(String[] args) {
         Helper.setTheme();
         LoginGUI login = new LoginGUI();
+        //gğpusjdfgsfd
 
     }
 }
