@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<persistence version="3.1"
+             xmlns="https://jakarta.ee/xml/ns/persistence"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="https://jakarta.ee/xml/ns/persistence https://jakarta.ee/xml/ns/persistence/persistence_3_1.xsd">
+
+    <persistence-unit name="library">
+
+    <properties>
+        <property name="jakarta.persistence.jdbc.driver" value="org.postgresql.Driver" /> <!-- DB Driver -->
+        <property name="jakarta.persistence.jdbc.url" value="jdbc:postgresql://localhost:5432/library" /> <!-- BD Mane -->
+        <property name="jakarta.persistence.jdbc.user" value="postgres" /> <!-- DB User -->
+        <property name="jakarta.persistence.jdbc.password" value="1234" /> <!-- DB Password -->
+
+        <property name="hibernate.show_sql" value="true" /> <!-- Show SQL in console -->
+        <property name="hibernate.hbm2ddl.auto" value="create-drop" /> <!-- Show SQL formatted -->
+    </properties>
+
+</persistence-unit>
+</persistence>
