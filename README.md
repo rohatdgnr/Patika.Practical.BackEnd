@@ -29,5 +29,6 @@ Katkıda bulunmak isterseniz, lütfen aşağıdaki adımları izleyin:
 - Değişiklikleri dalınıza gönderin: git push origin feature/özellik-ismi
 -Bir Pull Request açın.
 
-#Lisans
+# Lisans
+
 Bu proje MIT Lisansı ile lisanslanmıştır. Daha fazla bilgi için LICENSE dosyasına bakabilirsiniz.
