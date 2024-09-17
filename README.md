@@ -5,7 +5,7 @@
 
 Bu repo, Patika.dev platformundaki bootcamp sırasında tamamladığım tüm backend projelerini içermektedir. Projeler haftalık olarak düzenlenmiştir ve her biri farklı teknolojileri ve pratikleri öğrenmeye yöneliktir.
 
-# İçindekiler
+# İçindekilerr
 
 - Proje Yapısı
 - Katkıda Bulunma
