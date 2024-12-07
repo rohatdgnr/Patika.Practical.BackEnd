@@ -17,7 +17,7 @@ Bu repo, Patika.dev platformundaki bootcamp sırasında tamamladığım tüm bac
 - week2/: İkinci hafta projeleri ve ödevleri.
 - week3/: Üçüncü hafta projeleri ve ödevleri.
 - week4/: Dördüncü hafta projeleri ve ödevleri.
-- week5/: Beşinci hafta projeleri ve ödevleri.
+- week5/: Beşinci hafta projeleri ve ödevleri..
   
 # Katkıda Bulunma
 
